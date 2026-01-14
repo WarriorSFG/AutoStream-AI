@@ -4,17 +4,17 @@
 This repository contains an intelligent Conversational AI Agent built for **AutoStream**, a fictional video editing SaaS. The agent is designed to qualify leads from social media conversations using **LangGraph** for state management and **Gemini 2.5 Flash** for reasoning.
 
 ## 📌 Features
-* [cite_start]**Intent Recognition:** Distinguishes between casual greetings, product inquiries, and high-intent buying signals. [cite: 20]
-* [cite_start]**RAG (Retrieval-Augmented Generation):** accurate answers about pricing and policies using a local knowledge base (`data.json`). [cite: 25]
-* [cite_start]**Contextual Memory:** Remembers user details (Name, Email) across multiple turns using persistent state. [cite: 89]
-* [cite_start]**Safe Tool Execution:** only triggers the lead capture tool once *all* required slots (Name, Email, Platform) are filled. [cite: 44, 54]
+* [cite_start]**Intent Recognition:** Distinguishes between casual greetings, product inquiries, and high-intent buying signals.
+* [cite_start]**RAG (Retrieval-Augmented Generation):** accurate answers about pricing and policies using a local knowledge base (`data.json`). 
+* [cite_start]**Contextual Memory:** Remembers user details (Name, Email) across multiple turns using persistent state. 
+* [cite_start]**Safe Tool Execution:** only triggers the lead capture tool once *all* required slots (Name, Email, Platform) are filled.
 
 ## 🛠️ Tech Stack
-* [cite_start]**Framework:** LangChain & LangGraph [cite: 79]
-* [cite_start]**LLM:** Google Gemini 2.5 Flash [cite: 85]
+* [cite_start]**Framework:** LangChain & LangGraph 
+* [cite_start]**LLM:** Google Gemini 2.5 Flash 
 * **Embeddings:** Google Gemini Embedding 1.0
 * **Vector Store:** Scikit-Learn VectorStore (Local)
-* [cite_start]**Language:** Python 3.13 [cite: 76]
+* [cite_start]**Language:** Python 3.13 
 
 ---
 
