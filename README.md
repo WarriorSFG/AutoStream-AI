@@ -21,7 +21,7 @@ This repository contains an intelligent Conversational AI Agent built for **Auto
 ## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
-git clone [https://github.com/YourUsername/AutoStream-AI.git](https://github.com/YourUsername/AutoStream-AI.git)
+git clone [https://github.com/WarriorSFG/AutoStream-AI.git](https://github.com/WarriorSFG/AutoStream-AI.git)
 
 cd AutoStream-AI
 2. Set Up Virtual Environment
